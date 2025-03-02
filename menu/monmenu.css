@@ -1,0 +1,156 @@
+*{
+list-style: none;
+text-decoration: none;
+
+}
+body{
+    
+    
+    text-decoration: none;
+}
+.navigation{
+    position: fixed;
+    background-color:whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-left: 200px;
+    display: flex;
+   
+}
+input{
+    background-color: #05a8b7;
+   
+    border: none;
+    border-radius: 7px;
+    height: 25px;
+    color: white;
+}
+.navigation img{
+width: 29px;
+
+    
+}
+.sayd{
+    width: 15%;
+    height: auto;
+}
+.nav input{
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    margin-left: 800px;
+    gap: 5px;
+}
+select{
+    background-color: whitesmoke;
+    border: none; 
+    width: 20px;  
+}
+.AA{
+    display: flex;
+    gap: 20px;
+}
+ul{
+    
+}
+.gauche{
+    width: 200px;
+    height: 100vh;
+    border: 1px solid whitesmoke;
+    position: fixed;
+top: 0;
+left: 0;
+}
+img{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.gauche ul li a{
+    padding-top: 10px;
+    display: grid;
+    gap: 10px;
+
+    
+}
+
+h2{
+    font-size: 20px;
+    
+}
+button{
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #05a8b7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+div li a:hover{
+background-color: bisque;
+color: #05a8b7  ;
+}
+ul a{
+    color: black;
+    margin-top: 12px;
+}
+
+ .millieu{
+    
+    margin-left: 150px;
+    padding: 70px;
+}
+
+.bordure{
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    width:220px ;
+    height:60px ;
+    padding: 13px;
+    color: #05a8b7;
+}
+.Dou{
+    padding-top: 30px;
+    
+    
+}
+.bloc1{
+    height: 65px;
+    border: 2px solid whitesmoke;
+    display: flex;
+   
+}
+.aissatou{
+    width: 90px;
+    height: 30px;
+    margin-left: 750px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.bloc2{
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 116px;
+    justify-items: center;
+    height: 65px;
+    
+}
+
+.bloc3{
+    height: 65px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+} 
+
+ .aissa{
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    margin-left: 60px;
+}

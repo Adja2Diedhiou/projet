@@ -1,0 +1,135 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    
+    }
+    body{
+        
+        
+        text-decoration: none;
+    }
+    .navigation{
+        position: fixed;
+        background-color:whitesmoke;
+        border: 1px solid whitesmoke;
+        margin-left: 192px;
+        display: flex;
+       
+    }
+    input{
+        background-color: #05a8b7;
+       
+        border: none;
+        border-radius: 7px;
+        height: 25px;
+        color: white;
+    }
+    .navigation img{
+    width: 29px;
+    
+        
+    }
+    .nav input{
+        margin-top: 10px;
+    }
+    .nav{
+        display: flex;
+        margin-left: 800px;
+        gap: 5px;
+    }
+    select{
+        background-color: whitesmoke;
+        border: none; 
+        width: 20px;  
+    }
+    .AA{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .gauche{
+        width: 200px;
+        height: 100vh;
+        border: 1px solid whitesmoke;
+        position: fixed;
+    top: 0;
+    left: 0;
+    }
+    img{
+        width: 45px;
+        height: 45px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+    }
+    .gauche ul li a{
+        padding-top: 10px;
+        display: grid;
+        gap: 10px;
+    
+        
+    }
+    button{
+        margin-top: 0px;
+        padding: 10px;
+        background-color: #05a8b7;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+    }
+    ul a{
+        color: black;
+        margin-top: 12px;
+    }
+     .MILLIEU{
+    
+        margin-left: 100px;
+        padding: 120px;
+    }
+    .contener{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+    }
+    .dja{
+        border: 1px solid gray;
+        background-color: white;
+        width: 90%;
+        height: 15px;
+        padding: 7px;
+        border-radius: 2px;
+        grid-column: span 3;
+    }
+    .di{
+        margin-left: 75%;
+        
+        width: 15%;
+        height: 15px;
+        padding: 7px;
+        margin-top: -46px;
+        background-color: #ccc;
+    }
+    .cont2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .ouvri{
+        /* background-color: #05a8b7;
+        border: 1px solid;
+        width: 300%;
+        height: 80px;
+       margin-top: 50px;
+        */
+        width: 90%;
+        height: 50px;
+        
+        padding: 7px;
+        border-radius: 2px;
+        grid-column: span 3;
+        border:1px solid ;
+    }
+    .jou{
+        margin: 50px;
+        margin-left: 90%;
+        width: 60px;
+    }
